@@ -1,0 +1,121 @@
+Here's a sample README file for your four smart contract projects:
+
+---
+
+# README for Decentralized Smart Contracts
+
+This repository contains four decentralized smart contract implementations designed to facilitate various community-driven applications. Each contract aims to provide transparency, control, and engagement for users in their respective domains. The contracts are built using Solidity and are intended to be deployed on the Ethereum blockchain.
+
+## Table of Contents
+
+1. [Decentralized Charity Fund Allocation](#decentralized-charity-fund-allocation)
+2. [Decentralized Fan Engagement and Reward System](#decentralized-fan-engagement-and-reward-system)
+3. [Decentralized Rental Agreement Management](#decentralized-rental-agreement-management)
+4. [Decentralized Auction House](#decentralized-auction-house)
+5. [Installation and Usage](#installation-and-usage)
+6. [License](#license)
+
+---
+
+## Decentralized Charity Fund Allocation
+
+### Problem Statement
+A global charity organization aims to introduce a decentralized platform for managing its donations and fund allocations. The organization wants to give its donors more control and transparency over how the funds are utilized. 
+
+### Features
+- Donors can contribute Ether and receive voting power.
+- Charitable projects can submit funding requests.
+- Donors can vote on funding requests.
+- Requests are approved if they receive more than 50% of total voting power.
+
+### Key Functions
+- `donate()`
+- `submitFundingRequest(address projectAddress, uint256 requestedAmount, string projectDescription)`
+- `voteOnRequest(uint256 requestId)`
+- `finalizeRequest(uint256 requestId)`
+- `getFundingHistory()`
+
+---
+
+## Decentralized Fan Engagement and Reward System
+
+### Problem Statement
+A popular sports league wants to enhance fan engagement by implementing a decentralized reward system. Fans can earn and spend reward tokens based on their engagement activities.
+
+### Features
+- Token issuance and transfer.
+- Activity submission and verification.
+- Loyalty tiers based on accumulated tokens.
+- Special NFT badges for top contributors.
+- Token redemption for merchandise or experiences.
+
+### Key Functions
+- `earnTokens(address fan, uint256 amount, string activityType, string activityProof)`
+- `transferTokens(address to, uint256 amount)`
+- `redeemTokens(uint256 amount, string rewardType)`
+- `mintNFTBadge(address fan, string badgeName)`
+
+---
+
+## Decentralized Rental Agreement Management
+
+### Problem Statement
+A property management company wants to digitize its rental agreements and provide tenants with a secure way to manage their lease.
+
+### Features
+- Landlords can create rental agreements.
+- Tenants can pay rent through the contract.
+- Landlords can terminate agreements.
+- Events are emitted for key actions.
+
+### Key Functions
+- `createAgreement(address tenant, uint256 rentAmount, uint256 duration)`
+- `payRent(uint256 agreementId)`
+- `terminateAgreement(uint256 agreementId)`
+- `getAgreementStatus(uint256 agreementId)`
+
+---
+
+## Decentralized Auction House
+
+### Problem Statement
+An artist collective wants to create a decentralized auction platform for selling digital artwork. 
+
+### Features
+- Artists can create auctions.
+- Buyers can place bids.
+- Bid withdrawals if the auction is still active.
+- Artists can finalize the auction.
+
+### Key Functions
+- `createAuction(string itemName, uint256 reservePrice, uint256 auctionDuration)`
+- `placeBid(uint256 auctionId, uint256 bidAmount)`
+- `withdrawBid(uint256 auctionId)`
+- `finalizeAuction(uint256 auctionId)`
+
+---
+
+## Installation and Usage
+
+To deploy these contracts, follow these steps:
+
+1. Ensure you have [Node.js](https://nodejs.org/) and [Truffle](https://www.trufflesuite.com/truffle) installed.
+2. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+4. Deploy the contracts to your desired Ethereum test network (e.g., Rinkeby, Ropsten) using Truffle.
+
+5. Interact with the contracts via a web interface (such as React or Angular) or directly using a tool like Remix or Hardhat.
+
+6. HW2_P(n) where n is the number of the problem. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
