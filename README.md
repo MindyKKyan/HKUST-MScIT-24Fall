@@ -1,7 +1,3 @@
-Here's how you can organize your README for your GitHub:
-
----
-
 # MScIT24HKUST - Coursework Repository
 
 This repository contains the course materials, assignments, and projects for my MSc in Information Technology at HKUST. Below is a summary of the courses taken in the first semester (SEM 1), with relevant details about assignments, projects, and exams.
