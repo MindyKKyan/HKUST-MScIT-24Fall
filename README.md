@@ -6,7 +6,7 @@ This repository contains the course materials, assignments, and projects for my 
 
 ## Semester 1 Courses
 
-### **CSIT 5730 - Principle of Cybersecurity**
+### **CSIT 5730 - Principles of Cybersecurity**
 - **Assignments**: 3 Writing Assignments (4% each)
 - **Midterm**: 20%
 - **Group Project and Presentation**: 25%
@@ -31,5 +31,28 @@ This repository contains the course materials, assignments, and projects for my 
 - **Assignments**: 3 Assignments (Writing & Programming, 15% each)
 - **Personal Project**: 15%
 - **Final Exam**: Open Book (40%)
+
+---
+## Semester 2 Courses
+### **CSIT 5710 - Cryptography**
+- **Assignments**: 2 Writing Assignments (15% each)
+- **Midterm**: 30%
+- **Final Exam**: 40%
+
+### **CSIT 5970 - Advanced Cloud Computing**
+- **Assignments**: 4 Hands-on Assignments (30%)
+- **Midterm**: Open Book (30%)
+- **Group Project**: Code and Report(25%) + Video Presentation(15%)
+
+### **CSIT 6000R - Natural Language Processing**
+- **Assignments**: 3 Reading Reports (10%)
+- **Group Project and Presentation**(50%): Code and Report(28%) + Proposal and Result(12%) + Presentation(10%)
+- **Individual Project**: Code and Report (40%)
+
+### **CSIT 6000S - Understanding Large Language Models**
+- **Attendance**: Pre-lecture Questions and Answers(25%)
+- **Course Presentation**: 2 times for each group(4-5 students per group)(29%)
+- **Peer Feedback**: 2 Feedback for other groups (3% each)
+- **Group Project**: Proposal(5%) + Presentation(10%) + Code and Report(25%)
 
 ---
